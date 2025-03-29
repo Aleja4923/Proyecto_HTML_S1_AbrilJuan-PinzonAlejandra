@@ -1,0 +1,87 @@
+@font-face {
+    font-family: light;
+    src: url('../fuentes/MyriadPro-Light.otf');
+}
+@font-face {
+    font-family: 'regular';
+    src: url('../fuentes/MYRIADPRO-REGULAR.OTF');
+}
+body{
+    background-image: url('../img/fondo.png');
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+@keyframes mostrar2 {
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+
+}
+
+@keyframes anima2 {
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+
+
+}
+.cuadro2{
+    border-radius: 3.49vw;
+    background-color: white;
+    border: solid #707070;
+    margin-top: 19vw;
+    margin-left: 25vw;
+    width: 50vw;
+    height: 30vw;
+    animation: mostrar2 5s forwards;
+    opacity: 0; 
+
+}
+.pedrito{
+    margin-left: 22.5vw;
+    width: 5vw;
+    height: 5vw;
+}
+.logo1{
+    margin-top: 2vw;
+    margin-left: 22vw;
+    width: 6vw;
+
+}
+.t1{
+    font-size: 1.5vw;
+    font-family: light;
+    margin-top: 0vw;
+    letter-spacing: 0.3vw;
+    text-align: center;
+
+}
+.t2{
+    font-size: 2vw;
+    font-family: 'regular';
+    margin-top: 0.5vw;
+    text-align: center;
+
+}
+.us{
+    font-size: 1.1vw;
+    font-family: 'light';
+    text-align: center;
+}
+.logos2{
+    position: relative;
+    top: -25vw;
+    left: 44vw;
+    width: 10.26vw;
+    height: 9.167vw;
+    animation: anima2 4s;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-delay: 5s;
+    }
