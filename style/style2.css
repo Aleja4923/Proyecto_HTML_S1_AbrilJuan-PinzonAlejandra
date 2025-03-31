@@ -11,7 +11,7 @@
 body{
     padding-right: 10vw;
     background-image: url('../img/fondo.png');
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -20,7 +20,7 @@ body{
     animation-delay: 9s;
 }
 
-
+/*
 @keyframes mostrar2 {
     0%{opacity: 0;}
     25%{opacity: 1;}
@@ -46,7 +46,7 @@ body{
     75%{opacity: 0;}
     100%{opacity: 1; background-image: none; background-color: white;}
 }
-
+*/
 
 .cuadro2{
     border-radius: 3.49vw;
@@ -102,7 +102,7 @@ body{
     opacity: 0;
     animation-delay: 5s;
     }
-
+/*
     @keyframes extra {
         0%{opacity: 0;}
         25%{opacity: 0;}
@@ -110,7 +110,7 @@ body{
         75%{opacity: 0;}
         100%{opacity: 1;}
     }
-
+*/
 
 .menu{
     display: flex;
@@ -130,7 +130,7 @@ body{
     font-size: 24px;
 }
 
-.logoañadir{
+.logos{
     animation: quitarfondo 12s forwards;
     animation-delay: 9s;
     animation: extra 13s forwards;
@@ -147,17 +147,6 @@ body{
     animation: extra 13s forwards;
     font-size: 24px;
 }
-
-.logorefrescar{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    width: 1,61 vw;
-    height: 1,51 vw;
-    left: 4vw;
-}
-
 .eliminar{
     justify-content: space-around;
     animation: quitarfondo 12s forwards;
@@ -165,17 +154,6 @@ body{
     animation: extra 13s forwards;
     font-size: 24px;
 }
-
-.logoeliminar{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    width: 1,61 vw;
-    height: 1,51 vw;
-    left: 4vw;
-}
-
 .reportar{
     justify-content: space-around;
     animation: quitarfondo 12s forwards;
@@ -202,32 +180,12 @@ body{
     font-size: 24px;
 }
 
-.logoreportar{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    width: 1,61 vw;
-    height: 1,51 vw;
-    left: 4vw;
-}
-
 .ayuda{
     justify-content: space-around;
     animation: quitarfondo 12s forwards;
     animation-delay: 9s;
     animation: extra 13s forwards;
     font-size: 24px;
-}
-
-.logoayuda{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    width: 1,61 vw;
-    height: 1,51 vw;
-    left: 4vw;
 }
 
 .logoajuste{
@@ -253,11 +211,33 @@ body{
     animation-delay: 9s;
     animation: extra 13s forwards;
     position: relative;
-    top: -4.5vw;
+    top: -5.5vw;
     left: 89vw;
 }
 
+.tit1 {
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    animation: extra 13s forwards;
+    font-size: 1.8vw;
+    display: flex;
+    font-family: "regular";
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 
+.tit2 {
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    animation: extra 13s forwards;
+    font-size: 1vw;
+    display: flex;
+    font-family: "light";
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 
 .caja {
     border-radius: 1.5vw;
@@ -280,109 +260,21 @@ body{
     animation: extra 13s forwards;
     padding: 5px;
     font-size: 20px;
+    font-family: "light";
     display: flex;
     align-items: center;
-}
-
-.descripcion {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-weight: 500;
-    color: #333;
-    font-size: 20px;
-}
-
-.categoria {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    color: #555;
-    font-size: 20px;
-}
-
-.baja {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
-}
-
-.media {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
-}
-
-.alta {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
-}
-
-.fecha {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
-}
-
-.formula {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
-}
-.frecuencia {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
-}
-
-.cumplimiento {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
-}
-
-.area {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 20px;
-    color: #555;
-    justify-content: center;
 }
 
 .cajainvisible {
     animation: quitarfondo 12s forwards;
     animation-delay: 9s;
-    animation: extra 13s forwards;
-    border-radius: 3vw;
-    border-color: #817f7f;
     margin-bottom: 1vw;
     padding: 1vw;
-    width: 100%;
-    font-size: 21px;
-    margin-left: 3vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    font-size: 1vw;
+    font-family: "regular";
     display: grid;
-    grid-template-columns: 0.4fr 0.4fr 0.3fr 0.3fr 0.3fr 0.22fr 0.16fr 0.23fr 0.4fr;
+    animation: extra 13s forwards;
+    grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr;
 }
