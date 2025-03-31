@@ -19,8 +19,8 @@ body{
     animation: quitarfondo 1s forwards;
     animation-delay: 9s;
 }
-
 /*
+
 @keyframes mostrar2 {
     0%{opacity: 0;}
     25%{opacity: 1;}
@@ -46,8 +46,8 @@ body{
     75%{opacity: 0;}
     100%{opacity: 1; background-image: none; background-color: white;}
 }
-*/
 
+*/
 .cuadro2{
     border-radius: 3.49vw;
     background-color: white;
@@ -102,6 +102,7 @@ body{
     opacity: 0;
     animation-delay: 5s;
     }
+
 /*
     @keyframes extra {
         0%{opacity: 0;}
@@ -113,106 +114,34 @@ body{
 */
 
 .menu{
-    display: flex;
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    animation: extra 13s forwards;
     margin-top: -57vw;
-    margin-right: 20vw;
-    gap: 1vw;
-    justify-content: space-around;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    font-size: 1vw;
+    font-family: "regular";
+    display: grid;
+    grid-template-columns: 0.1aQ        fr 0.1fr 0.1fr 0.1fr 0.1fr 0.15fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+
+.logos img{
     animation: quitarfondo 12s forwards;
     animation-delay: 9s;
+    width: 1.5vw;
+    height: 1.5vw;
+    padding: 2vw;
     animation: extra 13s forwards;
 }
 
-.añadir{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 24px;
-}
-
-.logos{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    width: 1,61 vw;
-    height: 1,51 vw;
-    left: 4vw;
-}
-
-.refrescar{
-    justify-content: space-around;
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 24px;
-}
-.eliminar{
-    justify-content: space-around;
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 24px;
-}
-.reportar{
-    justify-content: space-around;
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 24px;
-}
-
-.logopeque{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    width: 1,61 vw;
-    height: 1,51 vw;
-    left: 2%;
-}
-
-.reportar{
-    justify-content: space-around;
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 24px;
-}
-
-.ayuda{
-    justify-content: space-around;
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    font-size: 24px;
-}
-
-.logoajuste{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    top: -1.5vw;
-    left: 85vw;
-}
-
-.notificacion{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    left: 87vw;
-    top: -2.5vw;
-}
-
-.pedrito2{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    position: relative;
-    top: -5.5vw;
-    left: 89vw;
+.letras {
+    font-size: 1.13vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    font-size: "regular";
+    padding: 2vw;
 }
 
 .tit1 {
