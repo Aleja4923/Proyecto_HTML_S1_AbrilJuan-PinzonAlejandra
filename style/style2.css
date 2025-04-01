@@ -6,6 +6,89 @@
     font-family: 'regular';
     src: url('../fuentes/MYRIADPRO-REGULAR.OTF');
 }
+@media(max-width:430px){
+    @keyframes mostrar2 {
+        0%{opacity: 0;}
+        25%{opacity: 1;}
+        50%{opacity: 1;}
+        75%{opacity: 1;}
+        100%{opacity: 0;}
+    
+    }
+    
+    @keyframes anima2 {
+        0%{opacity: 0;}
+        25%{opacity: 1;}
+        50%{opacity: 1;}
+        75%{opacity: 1;}
+        100%{opacity: 0;}
+    
+    
+    }
+    body{
+        background-image: url('../img/fondo.png');
+        background-color: black;
+        background-size: 100vw 220vw;
+        background-repeat: no-repeat;
+        
+    }
+    .cuadro2{
+        border-radius: 7vw;
+        background-color: white;
+        border: solid #707070;
+        margin-top: 70vw;
+        margin-left: 25vw;
+        width: 50vw;
+        height: 60vw;
+        animation: mostrar2 5s forwards;
+        opacity: 0; 
+    
+    }
+    .pedrito{
+        margin-left: 19vw;
+        width: 12vw;
+        height: 12vw;
+        margin-top: 0vw;
+    }
+    .logo1{
+        margin-top: 2vw;
+        margin-left: 20vw;
+        width: 9.5vw;
+    
+    }
+    .t1{
+        font-size: 2.5vw;
+        font-family: light;
+        margin-top: 1vw;
+        letter-spacing: 0.3vw;
+        text-align: center;
+    
+    }
+    .t2{
+        font-size: 4vw;
+        font-family: 'regular';
+        margin-top: 2vw;
+        text-align: center;
+    
+    }
+    .us{
+        font-size: 2vw;
+        font-family: 'light';
+        text-align: center;
+        margin-top: 2vw;
+    }
+    .logos2{
+        position: relative;
+        top: -25vw;
+        left: 44vw;
+        width: 12vw;
+        height: 11vw;
+        animation: anima2 4s;
+        animation-iteration-count: 1;
+        opacity: 0;
+        animation-delay: 5s;
+        }
+}
 
 
 body{
