@@ -90,7 +90,7 @@
         }
 }
 
-
+@media(min-width:431px){
 body{
     padding-right: 10vw;
     background-image: url('../img/fondo.png');
@@ -312,4 +312,4 @@ body{
     display: grid;
     animation: extra 13s forwards;
     grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr;
-}
+}}

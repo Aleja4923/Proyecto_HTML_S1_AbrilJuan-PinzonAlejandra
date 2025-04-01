@@ -13,6 +13,147 @@ body{
     background-repeat: no-repeat;
     
 }
+@media (min-width:0px) and (max-width: 430px){
+    @keyframes anima1 {
+        0%{opacity: 1;}
+        30%{opacity: 1;}
+        50%{opacity: 0;}
+        70%{opacity: 1;}
+        90%{opacity: 1;}
+        100%{opacity: 0;}
+
+    }
+    @keyframes mostrar {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    
+    }
+    @keyframes quitar {
+        0%{opacity: 1;}
+        100%{opacity: 0;}
+    
+    }
+    
+    @keyframes mostrar2 {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    
+    }
+    body{
+        background-color: black;
+        background-image: url('../img/fondo.png');
+        background-size: 100vw 220vw;
+        background-repeat: no-repeat;
+
+    }
+    .logo{
+        position: relative;
+        top: 85vw;
+        left: 44.375vw;
+        width: 20vw;
+        height: 21vw;
+        animation: anima1 3s;
+        animation-iteration-count: 1;
+        opacity: 0;
+
+    }
+    .cuadro1{
+        border-radius: 3.49vw;
+        background-color: white;
+        border: solid #707070;
+        margin-top: 25vw;
+        margin-left: 20vw;
+        width: 55vw;
+        height: 100vw;
+        animation: mostrar 2s forwards;
+        opacity: 0;
+        animation-delay: 3s;
+    }
+}
+.logo1{
+    margin-top: 8vw;
+    margin-left: 22vw;
+    width: 12vw;
+    
+}
+.t1{
+    font-size: 4vw;
+    font-family: light;
+    margin-top: 0vw;
+    letter-spacing: 0.3vw;
+    text-align: center;
+
+}
+.t2{
+    font-size: 3.5vw;
+    font-family: 'regular';
+    margin-top: 0.5vw;
+    text-align: center;
+
+}
+.t3{
+    font-family: 'light';
+    text-align: center;
+    font-size: 3vw;
+}
+.usuario{
+    font-family: 'light';
+    font-size: 3vw;
+    margin-left: 8vw;
+    margin-top: 0vw;
+}
+.border1{
+    border: solid #707070;
+    border-radius: 1.5vw;
+    width: 34vw;
+    height: 2.6vw;
+    margin-left: 8vw;
+    margin-top: -1.5vw;
+}
+.contraseña{
+    font-family: 'light';
+    font-size: 3vw;
+    margin-left: 8vw;
+    margin-top: 1vw;
+}
+.border2{
+    border: solid #707070;
+    border-radius: 1.5vw;
+    width: 34vw;
+    height: 2.6vw;
+    margin-left: 8vw;
+    margin-top: -1.5vw;
+}
+.border_n{
+    background-color: orangered;
+    border: solid orangered;
+    border-radius: 2.5vw;
+    width: 17.5vw;
+    height: 3.7vw;
+    margin-left: 16vw;
+    margin-top: 1.5vw;
+
+}
+.ingresar{
+    font-family: 'light';
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+.texto_pr{
+    font-family: 'light';
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 3vw;
+    position: relative;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+@media(min-width:431px){
 @keyframes anima1 {
     0%{opacity: 1;}
     25%{opacity: 1;}
@@ -38,7 +179,7 @@ top: 25vw;
 left: 44.375vw;
 width: 10.26vw;
 height: 9.167vw;
-animation: anima1 6s;
+animation: anima1 3s;
 animation-iteration-count: 1;
 opacity: 0;
 
@@ -70,7 +211,7 @@ opacity: 0;
     animation: mostrar 2s forwards;
     
     opacity: 0;
-    animation-delay: 6s; 
+    animation-delay: 3s; 
 
 }
 .logo1{
@@ -156,54 +297,5 @@ a{
     color: white;
     text-decoration: none;
 }
-/*.logo2{
-    z-index: 2;
-    position: relative;
-    top: 25vw;
-    left: 44.375vw;
-    width: 10.26vw;
-    height: 9.167vw;
-    animation: anima2 6s;
-    animation-iteration-count: 1;
-    opacity: 0;
-    animation-delay: 9s;
-    }*/
-
-@media(max-width: 430px){
-    @keyframes anima1 {
-        0%{opacity: 1;}
-        30%{opacity: 1;}
-        50%{opacity: 0;}
-        70%{opacity: 1;}
-        90%{opacity: 1;}
-        100%{opacity: 0;}
-
-    }
-    body{
-        background-color: black;
-        background-image: url('../img/fondo.png');
-        background-size: 100vw 220vw;
-        background-repeat: no-repeat;
-
-    }
-    .logo{
-        position: relative;
-        top: 85vw;
-        left: 44.375vw;
-        width: 20vw;
-        height: 21vw;
-        animation: anima1 10s;
-        animation-iteration-count: 1;
-        opacity: 0;
-
-    }
-    .cuadro1{
-        border-radius: 3.49vw;
-        background-color: white;
-        border: solid #707070;
-        margin-top: 25vw;
-        margin-left: 20vw;
-        width: 55vw;
-        height: 100vw;
-    }
 }
+
