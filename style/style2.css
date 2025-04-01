@@ -11,7 +11,7 @@
 body{
     padding-right: 10vw;
     background-image: url('../img/fondo.png');
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -19,7 +19,7 @@ body{
     animation: quitarfondo 1s forwards;
     animation-delay: 9s;
 }
-/*
+
 
 @keyframes mostrar2 {
     0%{opacity: 0;}
@@ -47,7 +47,6 @@ body{
     100%{opacity: 1; background-image: none; background-color: white;}
 }
 
-*/
 .cuadro2{
     border-radius: 3.49vw;
     background-color: white;
@@ -56,7 +55,7 @@ body{
     margin-left: 25vw;
     width: 50vw;
     height: 30vw;
-    animation: mostrar2 5s forwards;
+    animation: mostrar2 3s forwards;
     opacity: 0; 
 }
 
@@ -103,36 +102,57 @@ body{
     animation-delay: 5s;
     }
 
-/*
     @keyframes extra {
-        0%{opacity: 0;}
-        25%{opacity: 0;}
-        50%{opacity: 0;}
-        75%{opacity: 0;}
+        0%{opacity: 0; border-bottom: transparent;}
+        25%{opacity: 0; border-bottom: transparent;}
+        50%{opacity: 0; border-bottom: transparent;}
+        75%{opacity: 0; border-bottom: solid transparent;}
         100%{opacity: 1;}
     }
-*/
 
+
+    
 .menu{
     animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
     animation: extra 13s forwards;
     margin-top: -57vw;
-    padding: 1vw;
+    border-bottom: +2px solid #707070;
+    padding: 0.2vw;
     margin-left: 2.5vw;
     width: 90%;
     font-size: 1vw;
     font-family: "regular";
     display: grid;
-    grid-template-columns: 0.1aQ        fr 0.1fr 0.1fr 0.1fr 0.1fr 0.15fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-columns: 5fr 20fr 5fr 20fr 5fr 20fr 20fr 5fr 20fr 5fr 20fr 4fr 4fr 4fr ;
+}
+
+.items {
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    animation: extra 13s forwards;
+    font-size: 1vw;
+    font-family: "regular";
+    display: flex;
+    align-items: center;
 }
 
 .logos img{
     animation: quitarfondo 12s forwards;
     animation-delay: 9s;
-    width: 1.5vw;
-    height: 1.5vw;
-    padding: 2vw;
+    width: 1.9vw;
+    height: 1.9vw;
+    display: flex;
+    align-items: center;
+    animation: extra 13s forwards;
+}
+
+.logos3 img{
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    width: 1vw;
+    height: 1vw;
+    display: flex;
+    align-items: center;
     animation: extra 13s forwards;
 }
 
@@ -141,7 +161,9 @@ body{
     width: 1.5vw;
     height: 1.5vw;
     font-size: "regular";
-    padding: 2vw;
+    padding: 0.5vw;
+    display: flex;
+    align-items: center;
 }
 
 .tit1 {
@@ -150,6 +172,7 @@ body{
     animation: extra 13s forwards;
     font-size: 1.8vw;
     display: flex;
+    margin-top: 2vw;
     font-family: "regular";
     align-content: center;
     justify-content: center;
@@ -188,7 +211,7 @@ body{
     animation-delay: 9s;
     animation: extra 13s forwards;
     padding: 5px;
-    font-size: 20px;
+    font-size: 1vw;
     font-family: "light";
     display: flex;
     align-items: center;
