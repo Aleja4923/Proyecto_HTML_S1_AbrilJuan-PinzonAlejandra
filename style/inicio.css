@@ -11,15 +11,15 @@
 body{
     padding-right: 10vw;
     background-image: url('../img/fondo.png');
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     animation: quitarfondo 1s forwards;
-    animation-delay: 9s;
+    animation-delay: 6s;
 }
-/*
+
 @keyframes mostrar2 {
     0%{opacity: 0;}
     25%{opacity: 1;}
@@ -45,7 +45,6 @@ body{
     75%{opacity: 0;}
     100%{opacity: 1; background-image: none; background-color: white;}
 }
-*/
 
 .cuadro2{
     border-radius: 3.49vw;
@@ -96,12 +95,12 @@ body{
     left: 44vw;
     width: 10.26vw;
     height: 9.167vw;
-    animation: anima2 4s;
+    animation: anima2 1s;
     animation-iteration-count: 1;
     opacity: 0;
-    animation-delay: 5s;
+    animation-delay: 3s;
     }
-/*
+
     
     @keyframes extra {
         0%{opacity: 0; border-bottom: transparent;}
@@ -111,11 +110,11 @@ body{
         100%{opacity: 1;}
     }
 
-*/
+
     
 .menu{
-    animation: quitarfondo 12s forwards;
-    animation: extra 13s forwards;
+    animation: quitarfondo 3s forwards;
+    animation: extra 10s forwards;
     margin-top: -57vw;
     border-bottom: +2px solid #707070;
     padding: 0.2vw;
@@ -128,9 +127,8 @@ body{
 }
 
 .items {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
+    animation: quitarfondo 3s forwards;
+    animation: extra 10s forwards;
     font-size: 1vw;
     font-family: "regular";
     display: flex;
@@ -138,23 +136,21 @@ body{
 }
 
 .logos img{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
+    animation: quitarfondo 3s forwards;
     width: 1.9vw;
     height: 1.9vw;
     display: flex;
     align-items: center;
-    animation: extra 13s forwards;
+    animation: extra 10s forwards;
 }
 
 .logos3 img{
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
+    animation: quitarfondo 3s forwards;
     width: 1vw;
     height: 1vw;
     display: flex;
     align-items: center;
-    animation: extra 13s forwards;
+    animation: extra 10s forwards;
 }
 
 .letras {
@@ -179,9 +175,9 @@ body{
 
 
 .tit1 {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
+    animation: extra 10s forwards;
     font-size: 1.8vw;
     display: flex;
     margin-top: 2vw;
@@ -192,9 +188,9 @@ body{
 }
 
 .tit2 {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
+    animation: extra 10s forwards;
     font-size: 1vw;
     display: flex;
     font-family: "light";
@@ -206,22 +202,22 @@ body{
 .caja {
     border-radius: 1.5vw;
     border-style: solid;
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
     border-color: #817f7f;
     margin-bottom: 1vw;
     padding: 1vw;
     margin-left: 2.5vw;
     width: 80%;
     display: grid;
-    animation: extra 13s forwards;
+    animation: extra 10s forwards;
     grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr;
 }
 
 .item {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
+    animation: extra 10s forwards;
     padding: 5px;
     font-size: 1vw;
     font-family: "light";
@@ -230,8 +226,8 @@ body{
 }
 
 .cajainvisible {
-    animation: quitarfondo 12s forwards;
-    animation-delay: 9s;
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
     margin-bottom: 1vw;
     padding: 1vw;
     margin-left: 2.5vw;
@@ -239,12 +235,14 @@ body{
     font-size: 1vw;
     font-family: "regular";
     display: grid;
-    animation: extra 13s forwards;
+    animation: extra 10s forwards;
     grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.3fr 0.2fr;
 }
 
 .Añadir{
     border-radius: 3.49vw;
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
     background-color: #FF7221;
     width: 20vw;
     height: 4vw;    
@@ -252,11 +250,14 @@ body{
     color: white;
     left: 40vw;
     position: relative;
-    animation: quitarfondo 12s forwards;
-    animation: extra 13s forwards;
+    animation: quitarfondo 3s forwards;
+    animation: extra 10s forwards;
 }
 
 .Añadir div{
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
+    animation: extra 10s forwards;
     font-size: 1.5vw;
     font-family: "regular";
         padding-left: 4.5vw;
@@ -266,7 +267,87 @@ body{
     display: flex;
 }
 .men{
+    animation: quitarfondo 3s forwards;
+    animation-delay: 6s;
+    animation: extra 10s forwards;
     width: 2vw;
     margin-top: -1.5vw;
     margin-left: 1vw;
 }
+
+.porcentaje-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.porcentaje-circular {
+    position: relative;
+    width: 6vw;  
+    height: 6vw;
+    left: -1.8vw;
+    min-width: 60px;  
+    max-width: 50px;
+    min-height: 60px;
+    max-height: 70px;
+}
+
+
+.porcentaje-circular svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.porcentaje-fondo {
+    fill: none;
+    stroke: #d9d9d9;  
+    stroke-width: 8;
+}
+
+
+.porcentaje-barra {
+    fill: none;
+    stroke-width: 8;
+    stroke-dasharray: 0 100;
+    stroke-linecap: round;
+    animation: rellenar 0.8s ease-out forwards;
+}
+
+.porcentaje-texto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);  
+    font-family: "light";
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dasharray: var(--porcentaje) 100;
+    }
+}
+
+.porcentaje-barra {
+    stroke: rgba(255, 0, 0, 0.895); 
+}
+
+.porcentaje-circular[style*="--porcentaje: 25"] .porcentaje-barra,
+.porcentaje-circular[style*="--porcentaje: 31"] .porcentaje-barra,
+.porcentaje-circular[style*="--porcentaje: 32"] .porcentaje-barra {
+    stroke: rgba(255, 0, 0, 0.895);
+}
+
+.porcentaje-circular[style*="--porcentaje: 75"] .porcentaje-barra,
+.porcentaje-circular[style*="--porcentaje: 80"] .porcentaje-barra {
+    stroke: rgb(245, 188, 0);
+}
+
+.porcentaje-circular[style*="--porcentaje: 86"] .porcentaje-barra,
+.porcentaje-circular[style*="--porcentaje: 95"] .porcentaje-barra {
+    stroke: rgba(0, 255, 26, 0.679);}

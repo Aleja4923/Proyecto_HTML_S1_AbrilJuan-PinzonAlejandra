@@ -52,7 +52,7 @@ body{
         left: 44.375vw;
         width: 20vw;
         height: 21vw;
-        animation: anima1 3s;
+        animation: anima1 1s;
         animation-iteration-count: 1;
         opacity: 0;
 
@@ -67,7 +67,7 @@ body{
         height: 100vw;
         animation: mostrar 2s forwards;
         opacity: 0;
-        animation-delay: 3s;
+
     }
 }
 .logo1{
@@ -156,9 +156,7 @@ a{
 @media(min-width:431px){
 @keyframes anima1 {
     0%{opacity: 1;}
-    25%{opacity: 1;}
     50%{opacity: 0;}
-    70%{opacity: 1;}
     90%{opacity: 1;}
     100%{opacity: 0;}
 

@@ -85,6 +85,7 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 2vw;
+    margin-top: 4vw;
 
 }
 
@@ -114,6 +115,7 @@ td {
     padding-inline: 1vw;
     padding-top: 0.8vw;
     width: 8vw;
+    font-size: 1vw;
     height: 2vw;
     border-radius: 2vw;
     text-align: center;
