@@ -167,6 +167,17 @@ body{
     align-items: center;
 }
 
+.opcionañadir,
+.opcionrefrescar,
+.opcioneliminar,
+.opcionreportar,
+.opcionayuda {
+    display: contents; 
+    color: inherit; 
+    cursor: pointer;
+}
+
+
 .tit1 {
     animation: quitarfondo 12s forwards;
     animation-delay: 9s;

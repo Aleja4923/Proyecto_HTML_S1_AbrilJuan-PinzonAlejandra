@@ -1,0 +1,130 @@
+@font-face {
+    font-family: light;
+    src: url('../fuentes/MyriadPro-Light.otf');
+}
+@font-face {
+    font-family: 'regular';
+    src: url('../fuentes/MYRIADPRO-REGULAR.OTF');
+}
+
+
+
+body{
+    padding-right: 10vw;
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    border-bottom: +2px solid #707070;
+    padding: 0.2vw;
+    margin-left: 2.5vw;
+    margin-top: 1.5vw;
+    width: 90%;
+    font-size: 1vw;
+    font-family: "regular";
+    display: grid;
+    grid-template-columns: 5fr 20fr 5fr 20fr 5fr 20fr 20fr 5fr 20fr 5fr 20fr 4fr 4fr 4fr ;
+}
+
+.items {
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    animation: extra 13s forwards;
+    font-size: 1vw;
+    font-family: "regular";
+    display: flex;
+    align-items: center;
+}
+
+.logos img{
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    width: 1.9vw;
+    height: 1.9vw;
+    display: flex;
+    align-items: center;
+    animation: extra 13s forwards;
+}
+
+.logos3 img{
+    animation: quitarfondo 12s forwards;
+    animation-delay: 9s;
+    width: 1vw;
+    height: 1vw;
+    display: flex;
+    align-items: center;
+    animation: extra 13s forwards;
+}
+
+.letras {
+    font-size: 1.13vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    font-size: "regular";
+    padding: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.opcionañadir,
+.opcionrefrescar,
+.opcioneliminar,
+.opcionreportar,
+.opcionayuda {
+    display: contents; 
+    color: inherit; 
+    cursor: pointer;
+}
+
+.titulo {
+    font-size: 2vw;
+    font-family: "regular";
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+
+}
+
+table {
+    width: 50%;
+    font-family: "regular";
+    margin-left: 24vw;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 0.5vw;
+    box-shadow: 0vw 1vw 1vw 0.7vw #fdc6ad;
+}
+
+th, td {
+    padding: 1vw;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+.añadir {
+    background: #ff6600;
+    padding-inline: 1vw;
+    padding-top: 0.8vw;
+    width: 8vw;
+    height: 2vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-family: "regular";
+    color: white;
+    display: block;
+    margin-top: 2vw;
+    margin-left: 48vw ;
+    justify-content: center;
+}
+
+.añadir:hover {
+    background: #cc5200;
+}
