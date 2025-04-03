@@ -35,16 +35,41 @@
             <div class="itemspedrito2"><img src="./img/pedro.png"></div>
         </div>
     </div>
-        <div class="tit">Reportar un problema</div>
-            <label class="motivo">Motivo del reporte:</label>
-            <select id="motivo">
-                <option value="">Seleccione...</option>
-            </select>
+
 
         <label for="descripcion">Descripción:</label>
         <textarea id="descripcion" placeholder="Explica el problema..."></textarea>
 
         <button id="enviarReporte">Enviar Reporte</button>
+
+
+
+    <div class="container">
+        <h1 class="main-title">Gestión de Reportes</h1>
+
+            <h2>Nuevo Reporte</h2>
+            <div class="reporte">
+                </div class="titulo1">
+                    <label for="tit">Título </label>
+                    <input type="text" placeholder="Escribe el título del reporte" required>
+                </div>
+                <div class="motivo">
+                    <label for="descripcion">Motivo del reporte</label>
+                    <textarea id="descripcion" placeholder="Describe el problema"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="prioridad">Prioridad</label>
+                    <select id="prioridad">
+                        <option value="baja">Baja</option>
+                        <option value="media">Media</option>
+                        <option value="alta">Alta</option>
+                        <option value="critica">Crítica</option>
+                </div>
+                <div class="acciones">  
+                    <button type="submit" class="enviar">Enviar</button>
+                    <button type="reset" class="cancelar">Cancelar</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
