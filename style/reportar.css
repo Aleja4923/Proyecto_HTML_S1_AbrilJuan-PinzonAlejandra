@@ -78,3 +78,74 @@ body{
     color: inherit; 
     cursor: pointer;
 }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 1vw;
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 0.5vw;
+    box-shadow: 0vw 1vw 1vw 0.2vw #fdc6ad;
+}
+
+p {
+    color: #e96a2f;
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 2.3vw;
+
+    font-family: "regular";
+}
+
+.repor{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.letrass{
+    font-family: "light";
+    color: #e96a2f;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.acciones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn.cancelar {
+    background-color: #f44336;
+}

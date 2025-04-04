@@ -35,5 +35,48 @@
             <div class="itemspedrito2"><img src="./img/pedro.png"></div>
         </div>
     </div>
+    <div class="contenedor">
+        <div class="cabecera">
+            <h1><span class="icono">?</span> Solicitar Ayuda</h1>
+            <p>Describe tu problema y te contactaremos pronto</p>
+        </div>
+        
+        <form class="formulario">
+            <div class="grupo">
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" placeholder="Ej: Juan Pérez" required>
+            </div>
+            
+            <div class="grupo">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            
+            <div class="grupo">
+                <label for="problema">¿Qué problema tienes?</label>
+                <select id="problema">
+                    <option value="">Selecciona una opción</option>
+                    <option value="tecnico">Problema técnico</option>
+                    <option value="cuenta">Problema con mi cuenta</option>
+                    <option value="pago">Problema de pago</option>
+                    <option value="otro">Otro problema</option>
+                </select>
+            </div>
+            
+            <div class="grupo">
+                <label for="descripcion">Descripción detallada</label>
+                <textarea id="descripcion" placeholder="Describe tu problema con el mayor detalle posible..."></textarea>
+                <p class="texto-ayuda">Mientras más detalles nos des, mejor podremos ayudarte</p>
+            </div>
+            
+            <div class="acciones">
+                <button type="submit" class="boton">Pedir Ayuda</button>
+            </div>
+        </form>
+        
+        <div class="contacto">
+            <p>¿Necesitas ayuda inmediata? Llámanos al <strong>800-123-4567</strong></p>
+        </div>
+    </div>
 </body>
 </html>

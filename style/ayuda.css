@@ -78,3 +78,99 @@ body{
     color: inherit; 
     cursor: pointer;
 }
+
+.contenedor {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: "light";
+    box-shadow: 0 2px 5px rgba(243, 163, 89, 0.1);
+}
+
+.cabecera {
+    background-color:#FF7221 ; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecera h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.cabecera p {
+    margin: 10px 0 0;
+}
+
+.icono {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: white;
+    color: #FF7221;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.grupo {
+    margin-bottom: 15px;
+}
+
+.grupo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.grupo input,
+.grupo select,
+.grupo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffb184;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.grupo textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.texto-ayuda {
+    font-size: 13px;
+    color: #f08888;
+    margin-top: 5px;
+}
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    background: #FF7221;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #FF7221;
+}
+
+.contacto {
+    text-align: center;
+    padding: 15px;
+    background: #fce5dd;
+    color: #FF7221;
+}

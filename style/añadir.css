@@ -81,6 +81,7 @@ body{
 
 .titulo {
     font-size: 2vw;
+    color: #ff6600;
     font-family: "regular";
     display: flex;
     justify-content: center;
@@ -96,7 +97,7 @@ table {
     border-collapse: collapse;
     background: white;
     border-radius: 0.5vw;
-    box-shadow: 0vw 1vw 1vw 0.7vw #fdc6ad;
+    box-shadow: 0vw 1vw 1vw 0.2vw #fdc6ad;
 }
 
 th, td {
@@ -118,12 +119,11 @@ td {
     font-size: 1vw;
     height: 2vw;
     border-radius: 2vw;
-    text-align: center;
     font-family: "regular";
     color: white;
     display: block;
     margin-top: 2vw;
-    margin-left: 48vw ;
+    margin-left: 45vw ;
     justify-content: center;
 }
 
