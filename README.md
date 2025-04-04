@@ -13,24 +13,26 @@ Este trabajo busca **replicar la propuesta de UI/UX** y desarrollar los módulos
 
 ## Estructura completa del programa
 
+
+```
 KarioMediaProject/
-│── fuentes/               # Tipografías utilizadas en el proyecto
-│── img/                   # Imágenes y íconos SVG
-│── style/                 # Archivos CSS para estilizar el proyecto
+├── fuentes/             # Tipografías utilizadas en el proyecto
+├── img/                 # Imágenes y iconos SVG
+├── style/               # Archivos CSS para estilizar el proyecto
 │   ├── añadir.css
 │   ├── ayuda.css
 │   ├── eliminar.css
 │   ├── inicio.css
 │   ├── reportar.css
 │   ├── style.css
-│── añadir.html            # Módulo para añadir elementos
-│── ayuda.html             # Módulo de ayuda
-│── eliminar.html          # Módulo para eliminar elementos
-│── index.html             # Página principal
-│── inicio.html            # Página de inicio
-│── reportar.html          # Módulo de reportes
-│── README.md              # Documentación del proyecto
-
+├── añadir.html          # Módulo para añadir elementos
+├── ayuda.html           # Módulo de ayuda
+├── eliminar.html        # Módulo para eliminar elementos
+├── index.html           # Página principal
+├── inicio.html          # Página de inicio
+├── reportar.html        # Módulo de reportes
+└── README.md            # Documentación del proyecto
+```
 
 ## Tabla de Contenidos
 
