@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/eliminar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Eliminar</title>
 </head>
 <body>
+    <div id="desktop-content">
     <div class="cuadro3">
         <div class="menu">
             <a href="./añadir.html" class="opcionañadir">
@@ -135,6 +137,184 @@
     </div>
     <div class="guardar">
         <div>Guardar Cambios</div>
+    </div>
+    </div>
+    <div id="mobile-content">
+        <div class="container">
+            <header>
+                <div class="header-buttons">
+                    <button class="btn-action" onclick="window.location.href='index.html'"><i class="fas fa-arrow-left"></i> Volver</button>
+                    <button class="btn-action"><i class="fas fa-sync"></i> Refrescar</button>
+                    <button class="btn-action active"><i class="fas fa-trash"></i> Eliminar</button>
+                    <button class="btn-action"><i class="fas fa-arrow-down"></i></button>
+                    <button class="btn-action"><i class="fas fa-cog"></i> Reportar</button>
+                    <button class="btn-action"><i class="fas fa-question-circle"></i> Ayuda</button>
+                    <div class="user-profile">
+                        <span class="notification-dot"></span>
+                        <span class="user-icon"><i class="fas fa-user-circle"></i></span>
+                    </div>
+                </div>
+            </header>
+    
+            <main>
+                <div class="panel-title">
+                    <h1>Eliminar Indicadores</h1>
+                    <p>Seleccione los indicadores que desea eliminar del panel.</p>
+                </div>
+    
+                <div class="delete-container">
+                    <div class="select-all-container">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="selectAll" onchange="toggleSelectAll()">
+                            <span class="checkmark"></span>
+                            Seleccionar todos
+                        </label>
+                    </div>
+    
+                    <div class="indicator-list">
+                        <div class="indicator-item">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="indicador" value="1">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="indicator-info">
+                                <h3>Modelado 3D</h3>
+                                <p>Diseño por departamento...</p>
+                                <div class="indicator-meta">
+                                    <span class="category low">Baja</span>
+                                    <span class="date">13/05/21 - 12/12/21</span>
+                                    <span class="area">Marketing</span>
+                                </div>
+                                <div class="progress-bar small">
+                                    <div class="progress" style="width: 51%;">51%</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="indicator-item">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="indicador" value="2">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="indicator-info">
+                                <h3>Finca Galván</h3>
+                                <p>Diseño de maqueta...</p>
+                                <div class="indicator-meta">
+                                    <span class="category low">Baja</span>
+                                    <span class="date">12/04/21 - 12/05/21</span>
+                                    <span class="area">Diseño</span>
+                                </div>
+                                <div class="progress-bar small">
+                                    <div class="progress" style="width: 25%;">25%</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="indicator-item">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="indicador" value="3">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="indicator-info">
+                                <h3>Colegios Privados</h3>
+                                <p>Se busca llegar a los...</p>
+                                <div class="indicator-meta">
+                                    <span class="category medium">Media</span>
+                                    <span class="date">24/04/21 - 12/11/21</span>
+                                    <span class="area">Desarrollo</span>
+                                </div>
+                                <div class="progress-bar small">
+                                    <div class="progress" style="width: 80%;">80%</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="indicator-item">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="indicador" value="4">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="indicator-info">
+                                <h3>Electrodomésticos</h3>
+                                <p>Ventas de electrodomésticos...</p>
+                                <div class="indicator-meta">
+                                    <span class="category medium">Media</span>
+                                    <span class="date">12/04/21 - 12/09/21</span>
+                                    <span class="area">Gerencia</span>
+                                </div>
+                                <div class="progress-bar small">
+                                    <div class="progress" style="width: 32%;">32%</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="indicator-item">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="indicador" value="5">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="indicator-info">
+                                <h3>Estado 2 - Hortalizas</h3>
+                                <p>Impacto en los sectores...</p>
+                                <div class="indicator-meta">
+                                    <span class="category high">Alta</span>
+                                    <span class="date">12/04/21 - 12/09/21</span>
+                                    <span class="area">Marketing</span>
+                                </div>
+                                <div class="progress-bar small">
+                                    <div class="progress" style="width: 95%;">95%</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="indicator-item">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="indicador" value="6">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="indicator-info">
+                                <h3>Jóvenes en Acción</h3>
+                                <p>Impacto en los sectores...</p>
+                                <div class="indicator-meta">
+                                    <span class="category high">Alta</span>
+                                    <span class="date">15/02/21 - 08/11/21</span>
+                                    <span class="area">Producción</span>
+                                </div>
+                                <div class="progress-bar small">
+                                    <div class="progress" style="width: 75%;">75%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="delete-actions">
+                        <div class="selected-count">0 indicadores seleccionados</div>
+                        <div class="action-buttons">
+                            <button class="cancel-button" onclick="window.location.href='index.html'">Cancelar</button>
+                            <button class="delete-button" onclick="confirmarEliminacion()" disabled>Eliminar Seleccionados</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Modal de confirmación -->
+                <div id="confirmModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Confirmar eliminación</h2>
+                            <span class="close" onclick="cerrarModal()">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>¿Está seguro de que desea eliminar los indicadores seleccionados?</p>
+                            <p class="warning"><i class="fas fa-exclamation-triangle"></i> Esta acción no se puede deshacer.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="cancel-button" onclick="cerrarModal()">Cancelar</button>
+                            <button class="confirm-delete-button" onclick="eliminarIndicadores()">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
 </body>
 </html>

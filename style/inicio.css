@@ -8,10 +8,12 @@
 }
 
 
+
+@media(min-width:431px){
 body{
     padding-right: 10vw;
     background-image: url('../img/fondo.png');
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -19,7 +21,7 @@ body{
     animation: quitarfondo 1s forwards;
     animation-delay: 6s;
 }
-/*
+
 @keyframes mostrar2 {
     0%{opacity: 0;}
     25%{opacity: 1;}
@@ -45,7 +47,7 @@ body{
     75%{opacity: 0;}
     100%{opacity: 1; background-image: none; background-color: white;}
 }
-*/
+
 .cuadro2{
     border-radius: 3.49vw;
     background-color: white;
@@ -101,7 +103,7 @@ body{
     animation-delay: 3s;
     }
 
-    /*
+    
     @keyframes extra {
         0%{opacity: 0; border-bottom: transparent;}
         25%{opacity: 0; border-bottom: transparent;}
@@ -109,7 +111,7 @@ body{
         75%{opacity: 0; border-bottom: solid transparent;}
         100%{opacity: 1;}
     }
-*/
+
 
     
 .menu{
@@ -205,7 +207,8 @@ body{
     animation: quitarfondo 3s forwards;
     animation-delay: 6s;
     border-color: #817f7f;
-    margin-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    padding: 1vw;
     margin-left: 2.5vw;
     width: 80%;
     display: grid;
@@ -227,6 +230,7 @@ body{
 .cajainvisible {
     animation: quitarfondo 3s forwards;
     animation-delay: 6s;
+    margin-bottom: 1vw;
     padding: 1vw;
     margin-left: 2.5vw;
     width: 80%;
@@ -349,3 +353,228 @@ body{
 .porcentaje-circular[style*="--porcentaje: 86"] .porcentaje-barra,
 .porcentaje-circular[style*="--porcentaje: 95"] .porcentaje-barra {
     stroke: rgba(0, 255, 26, 0.679);}
+
+    #mobile-content{
+        display: none;
+    }
+    
+}
+
+
+    @media(max-width:430px){
+
+        #desktop-content{
+            display: none;
+        }
+        #mobile-content{
+            display: block;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            max-width: 430px;
+            margin: 0 auto;
+            height: 932px;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            position: relative;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #f0f0f0;
+            padding: 10px 5px;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 5px;
+        }
+        
+        .header-buttons::-webkit-scrollbar {
+            height: 3px;
+        }
+        
+        .header-buttons::-webkit-scrollbar-thumb {
+            background-color: #ccc;
+        }
+        
+        .btn-action {
+            background: none;
+            border: none;
+            color: #ff6b00;
+            font-size: 12px;
+            cursor: pointer;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 50px;
+        }
+        
+        .btn-action.active {
+            color: #e05f00;
+            font-weight: bold;
+        }
+        
+        .btn-action i {
+            font-size: 16px;
+            margin-bottom: 2px;
+        }
+        
+        .user-profile {
+            position: relative;
+            margin-left: 10px;
+        }
+        
+        .notification-dot {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 8px;
+            height: 8px;
+            background-color: #ff6b00;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        
+        .user-icon {
+            font-size: 20px;
+            color: #666;
+        }
+        
+        /* Main Content Styles */
+        main {
+            padding: 15px;
+            overflow-y: auto;
+            height: calc(100% - 60px);
+        }
+        
+        .panel-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .panel-title h1 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .panel-title p {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        /* Table Styles */
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 800px;
+            /* Ensure table is scrollable on mobile */
+        }
+        
+        thead {
+            background-color: #f8f8f8;
+        }
+        
+        th,
+        td {
+            padding: 10px 15px;
+            text-align: left;
+            font-size: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        th {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        tbody tr {
+            background-color: white;
+            transition: background-color 0.2s;
+        }
+        
+        tbody tr:hover {
+            background-color: #f9f9f9;
+        }
+        
+        /* Progress Bar Styles */
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .progress-bar.small {
+            height: 12px;
+            margin-top: 5px;
+        }
+        
+        .progress {
+            height: 100%;
+            background-color: #ff6b00;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            font-size: 11px;
+        }
+        
+        .progress-bar.small .progress {
+            line-height: 12px;
+            font-size: 9px;
+        }
+        
+        /* Add Button Styles */
+        .add-button-container {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .add-button {
+            background-color: #ff6b00;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .add-button:hover {
+            background-color: #e05f00;
+        }
+        
+    }
